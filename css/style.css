@@ -34,16 +34,17 @@ img {
 }
 
 .logo-box {
-    background-color: #8b3a4b;   /* darker boho rose for better contrast */
+    background-color: #7b2336;   /* darker boho rose for better contrast */
     color: #ffffff;              /* white text */
-    padding: 10px 20px;
-    flex: 0 0 150px;
+    padding: 12px 22px;
+    flex: 0 0 160px;
     text-align: center;
-    font-size: 1.1rem;           /* bigger text */
+    font-size: 1.1rem;
     font-weight: 600;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
 }
+
 
 
 .main-nav {
