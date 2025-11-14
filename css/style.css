@@ -34,8 +34,8 @@ img {
 }
 
 .logo-box {
-    background-color: #7b2336;   /* darker boho rose for better contrast */
-    color: #ffffff;              /* white text */
+    background-color: #3b1018;   /* very dark wine / boho */
+    color: #ffffff;              /* pure white text */
     padding: 12px 22px;
     flex: 0 0 160px;
     text-align: center;
@@ -44,6 +44,8 @@ img {
     letter-spacing: 0.14em;
     text-transform: uppercase;
 }
+
+
 
 
 
