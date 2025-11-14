@@ -1,4 +1,4 @@
-/* ---------- BASE STYLES ---------- */
+/*  BASE STYLES */
 
 * {
     box-sizing: border-box;
@@ -25,7 +25,7 @@ img {
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
-/* ---------- HEADER ---------- */
+/*  HEADER  */
 
 .top-bar {
     display: flex;
@@ -72,7 +72,7 @@ img {
     color: #4a3429;
 }
 
-/* ---------- HOME PAGE ---------- */
+/*  HOME PAGE  */
 
 .home-hero {
     text-align: center;
@@ -115,7 +115,7 @@ img {
     color: #5a4034;
 }
 
-/* ---------- PRODUCTS PAGE ---------- */
+/* PRODUCTS PAGE */
 
 .products-section {
     padding-bottom: 20px;
@@ -181,7 +181,7 @@ img {
     color: #5a4034;
 }
 
-/* ---------- CONTACT PAGE ---------- */
+/*  CONTACT PAGE  */
 
 .contact-section {
     padding: 25px 40px 30px;
@@ -266,7 +266,7 @@ textarea:focus {
     box-shadow: 0 0 0 2px rgba(183, 110, 121, 0.2);
 }
 
-/* ---------- BUTTONS ---------- */
+/* BUTTONS */
 
 .btn-primary {
     background-color: #b76e79;
@@ -301,7 +301,7 @@ textarea:focus {
     background-color: #fbe3ee;
 }
 
-/* ---------- FOOTER ---------- */
+/* FOOTER  */
 
 .site-footer {
     background-color: #f3d9ca;
