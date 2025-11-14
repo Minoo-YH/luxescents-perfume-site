@@ -1,0 +1,319 @@
+/* ---------- BASE STYLES ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f5ebe2;
+    color: #4a3429;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Centered page container */
+.page-wrapper {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #fdf7f2;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+/* ---------- HEADER ---------- */
+
+.top-bar {
+    display: flex;
+    background: linear-gradient(90deg, #f3d9ca, #f7e4d7);
+    border-bottom: 1px solid #e3b7a0;
+}
+
+.logo-box {
+    background-color: #b76e79;
+    color: #ffffff;
+    padding: 10px 20px;
+    flex: 0 0 140px;
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.main-nav {
+    flex: 1;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-nav li a {
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #5a4034;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover,
+.main-nav li a.active {
+    background-color: #f0cbb4;
+    color: #4a3429;
+}
+
+/* ---------- HOME PAGE ---------- */
+
+.home-hero {
+    text-align: center;
+    padding: 35px 40px 30px;
+    background: linear-gradient(#f0d4c7, #fdf7f2);
+}
+
+.home-hero h1 {
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #4a3429;
+}
+
+.hero-image-box {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #6b4b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fdf7f2;
+    font-size: 1.4rem;
+}
+
+.hero-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-hero p {
+    max-width: 600px;
+    margin: 0 auto 10px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #5a4034;
+}
+
+/* ---------- PRODUCTS PAGE ---------- */
+
+.products-section {
+    padding-bottom: 20px;
+}
+
+.products-header {
+    padding: 20px 40px 0;
+}
+
+.products-header h1 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+}
+
+.products-header p {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+    color: #5a4034;
+}
+
+/* 2-column product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 20px 40px 30px;
+    background-color: #f8ede4;
+}
+
+.product-card {
+    background-color: #fdf7f2;
+    border-radius: 14px;
+    border: 1px solid #e3b7a0;
+    padding: 0.9rem;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h2 {
+    margin: 0.3rem 0 0.1rem;
+    font-size: 1rem;
+}
+
+.product-price {
+    margin: 0;
+    font-weight: 600;
+    color: #b76e79;
+    font-size: 0.9rem;
+}
+
+.product-card p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #5a4034;
+}
+
+/* ---------- CONTACT PAGE ---------- */
+
+.contact-section {
+    padding: 25px 40px 30px;
+}
+
+.contact-section h1 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+}
+
+.contact-section > p {
+    font-size: 0.9rem;
+    color: #5a4034;
+}
+
+.contact-wrapper {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1.1fr 1.3fr;
+    gap: 1.5rem;
+}
+
+.contact-info,
+.contact-form {
+    background-color: #f8ede4;
+    border-radius: 14px;
+    border: 1px solid #e3b7a0;
+    padding: 1rem 1.2rem;
+}
+
+.contact-info p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+.contact-info strong {
+    color: #4a3429;
+}
+
+.contact-info a {
+    color: #b76e79;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #7b6052;
+}
+
+input,
+textarea {
+    padding: 0.5rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #d9c3b8;
+    font-family: inherit;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #b76e79;
+    box-shadow: 0 0 0 2px rgba(183, 110, 121, 0.2);
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn-primary {
+    background-color: #b76e79;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 0.6rem 1.4rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.92;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #b76e79;
+    border-radius: 999px;
+    border: 1px solid #b76e79;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #fbe3ee;
+}
+
+/* ---------- FOOTER ---------- */
+
+.site-footer {
+    background-color: #f3d9ca;
+    border-top: 1px solid #e3b7a0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    color: #5a4034;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+
