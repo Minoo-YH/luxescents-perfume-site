@@ -23,7 +23,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <!-- Active link for Contact page -->
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
@@ -53,15 +52,17 @@
                 <!-- Column: simple contact form (front-end only) -->
                 <div class="contact-form">
                     <h2>Send us a message</h2>
-                    <form>
+
+                    <!-- This form uses mailto: to open the user's email client -->
+                    <form action="mailto:info@luxescents.fi" method="post" enctype="text/plain">
                         <label for="name">Name</label>
-                        <input id="name" type="text" name="name">
+                        <input id="name" type="text" name="name" required>
 
                         <label for="email">Email</label>
-                        <input id="email" type="email" name="email">
+                        <input id="email" type="email" name="email" required>
 
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5"></textarea>
+                        <textarea id="message" name="message" rows="5" required></textarea>
 
                         <button type="submit" class="btn-primary">Send</button>
                     </form>
@@ -78,5 +79,6 @@
 
 </body>
 </html>
+
 
 
